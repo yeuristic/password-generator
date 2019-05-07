@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Password Generator</string>
+    <string name="generate_new_password">Generate New Password</string>
+    <string name="generate_new_pin">Generate New Pin</string>
+    <string name="title_password_included">Module Title</string>
+    <string name="title_pin_ondemand">Generate Pin</string>
+</resources>
