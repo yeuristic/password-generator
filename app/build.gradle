@@ -9,10 +9,10 @@ apply plugin: 'io.fabric'
 android {
     signingConfigs {
         release {
-            storeFile file(KSPATH)
-            storePassword KSPASS
-            keyPassword KEYPASS
-            keyAlias = KSALIAS
+//            storeFile file(KSPATH)
+//            storePassword KSPASS
+//            keyPassword KEYPASS
+//            keyAlias = KSALIAS
         }
     }
     compileSdkVersion 28
