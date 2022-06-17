@@ -19,7 +19,7 @@ fun AppCompatActivity.copyToClipboard(label: String = "default", text: CharSeque
     if (lifecycle.currentState.isAtLeast(Lifecycle.State.CREATED)) {
         val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
         val clip = ClipData.newPlainText(label, text)
-        clipboard.primaryClip = clip
+        clipboard?.setPrimaryClip(clip)
     }
 }
 
